@@ -1,0 +1,16 @@
+{
+  "name": "pagina_sanreal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gh-pages index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "homepage": "",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
