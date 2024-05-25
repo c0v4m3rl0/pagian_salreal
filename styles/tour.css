@@ -1,0 +1,123 @@
+/* Media Queries */
+
+/* xs */
+@media (max-width: 475px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(33.33%, 1fr));
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    }
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    }
+}
+
+/* Media Queries adicionales para más tamaños */
+
+/* 3xl */
+@media (max-width: 1800px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(16.67%, 1fr));
+    }
+}
+
+/* 4xl */
+@media (max-width: 2000px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(14.29%, 1fr));
+    }
+}
+
+/* 5xl */
+@media (max-width: 2200px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(12.5%, 1fr));
+    }
+}
+
+/* 6xl */
+@media (max-width: 2400px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(11.11%, 1fr));
+    }
+}
+
+/* 7xl */
+@media (max-width: 2600px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
+    }
+}
+
+/* Para tamaños más pequeños */
+
+/* xxs */
+@media (max-width: 400px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
+
+/* xxs */
+@media (max-width: 350px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
+
+/* xxxs */
+@media (max-width: 300px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
+.container {
+    position: relative; /* Establece la posición relativa para el contenedor */
+    width: 100%; /* Ajusta el ancho según sea necesario */
+  }
+  
+  .container img {
+    width: 100%; /* Ajusta el ancho de la imagen para que ocupe todo el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  
+  .text {
+    position: absolute; /* Establece la posición absoluta para el texto */
+    top: 50%; /* Coloca el texto en el centro verticalmente */
+    left: 50%; /* Coloca el texto en el centro horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el texto exactamente en el centro */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
+    color: white; /* Color del texto */
+    padding: 10px; /* Ajusta el espaciado alrededor del texto */
+    font-size: 16px; /* Tamaño del texto */
+  }
